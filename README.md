@@ -9,8 +9,9 @@ Powered by **Google Maps** and **Google Places API**, with live filters for type
 Try the app instantly on your phone — no installation needed!
 
 1. Download the free **Expo Go** app:
-   - [iOS](https://apps.apple.com/app/expo-go/id982107779)
-   - [Android](https://play.google.com/store/apps/details?id=host.exp.exponent)
+
+   - **iOS users**: [Download from App Store](https://apps.apple.com/app/expo-go/id982107779)
+   - **Android users**: [Download from Google Play](https://play.google.com/store/apps/details?id=host.exp.exponent)
 
 2. Open Expo Go and:
    - Scan this QR code(easiest & most reliable):
@@ -75,7 +76,6 @@ Try the app instantly on your phone — no installation needed!
 ## Deployment
 
 - Published via **EAS Update** for instant over-the-air updates.
-- Live link: https://u.expo.dev/ab8c3db2-b2e0-4e29-a967-b50ee411db3b
 
 ## Contributing
 
