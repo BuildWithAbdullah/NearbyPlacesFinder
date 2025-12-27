@@ -1,50 +1,113 @@
-# Welcome to your Expo app 👋
+# Nearby Places Finder 📍
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A **React Native** app built with **Expo** that helps you discover nearby places like restaurants, cafes, hospitals, pharmacies, ATMs, banks, gas stations, supermarkets, and more — using your real-time location!
 
-## Get started
+Powered by **Google Maps** and **Google Places API**, with live filters for type and radius, beautiful markers, and detailed bottom sheet views (including photos and ratings).
 
-1. Install dependencies
+## Live Demo 🚀
 
+Try the app instantly on your phone:
+
+1. Download the free **Expo Go** app (iOS/Android)
+2. Open this link: https://u.expo.dev/ab8c3db2-b2e0-4e29-a967-b50ee411db3b
+
+Grant location permission and explore places around you!
+
+## Screenshots
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*(Map view with markers • Filters panel • Place details with photo)*
+
+## Features ✨
+
+- Real-time user location using device GPS
+- Interactive Google Map with custom markers (red for you, blue for places)
+- Live filters:
+  - Type picker (restaurant, cafe, hospital, etc.)
+  - Radius slider (1–20 km)
+- Tap any marker → sliding bottom sheet with:
+  - Name & full address
+  - Rating (⭐)
+  - High-quality photo (if available)
+- Smooth loading indicators and error handling
+- Cross-platform (iOS & Android)
+
+## Tech Stack 🛠️
+
+- **Expo** (managed workflow)
+- **React Native**
+- **react-native-maps** (Google Maps provider)
+- **expo-location**
+- **Google Places API** (Nearby Search + Place Details)
+- **@gorhom/bottom-sheet** (beautiful details sheet)
+- **@react-native-picker/picker** & **@react-native-community/slider**
+
+## Setup & Run Locally
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/buildwithabdullah/NearbyPlacesFinder.git
+   cd NearbyPlacesFinder
+   ```
+
+2. Install dependencies:
    ```bash
    npm install
    ```
+   (or `yarn install`)
 
-2. Start the app
+3. Add your Google API key:
+   - Create `constants/apiKeys.js`:
+     ```js
+     export const GOOGLE_API_KEY = 'YOUR_GOOGLE_PLACES_API_KEY_HERE';
+     ```
+   - Enable Places API, Maps SDK for Android/iOS in Google Cloud Console.
 
+4. Start the app:
    ```bash
    npx expo start
    ```
+   Scan QR code with Expo Go app.
 
-In the output, you'll find options to open the app in a
+## Deployment
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Published via **EAS Update** for instant over-the-air updates.
+- Live link: https://u.expo.dev/ab8c3db2-b2e0-4e29-a967-b50ee411db3b
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Contributing
 
-## Get a fresh project
+Contributions welcome! Feel free to:
+- Open issues
+- Submit PRs (bug fixes, new place types, UI improvements)
 
-When you're ready, run:
+## License
 
-```bash
-npm run reset-project
-```
+MIT License © 2025 Abdullah Shabbir
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+Built with ❤️ by [@buildwithabdullah](https://github.com/buildwithabdullah)
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Star the repo if you like it! ⭐
