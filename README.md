@@ -6,12 +6,22 @@ Powered by **Google Maps** and **Google Places API**, with live filters for type
 
 ## Live Demo 🚀
 
-Try the app instantly on your phone:
+Try the app instantly on your phone — no installation needed!
 
-1. Download the free **Expo Go** app (iOS/Android)
-2. Open this link: https://u.expo.dev/ab8c3db2-b2e0-4e29-a967-b50ee411db3b
+1. Download the free **Expo Go** app:
+   - [iOS](https://apps.apple.com/app/expo-go/id982107779)
+   - [Android](https://play.google.com/store/apps/details?id=host.exp.exponent)
 
-Grant location permission and explore places around you!
+2. Open Expo Go and:
+   - Scan this QR code:  
+     ![QR Code for Nearby Places Finder](YOUR_QR_CODE_IMAGE_LINK_HERE)
+     <img width="181" height="178" alt="qr code expo go app" src="https://github.com/user-attachments/assets/4d675037-d34f-4532-87d5-a9e0136d1df7" />
+
+   - Or paste this link: `https://expo.dev/preview/update?message=Initial+live+version+for+sharing&updateRuntimeVersion=exposdk%3A54.0.0&createdAt=2025-12-27T11%3A35%3A45.545Z&slug=exp&projectId=ab8c3db2-b2e0-4e29-a967-b50ee411db3b&group=42390524-48fb-4b7c-a244-5a1fcb3b9e21`
+
+3. Grant location permission and explore nearby places around you!
+
+(Works worldwide — restaurants, hospitals, ATMs, and more!)
 
 ## Screenshots
 
